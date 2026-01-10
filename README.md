@@ -1,3 +1,3 @@
 # Jie-and-Maggie-Webpage
 
-A Pen created on CodePen.
+A Webpage for the Real Estate Team of Jie and Maggie.

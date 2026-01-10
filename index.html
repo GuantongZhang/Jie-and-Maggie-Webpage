@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team of Jie and Maggie</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>tailwind.config={theme:{extend:{colors:{primary:'#C69C6D',secondary:'#2E2E2E'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="top-nav">
+  <img src="https://raw.githubusercontent.com/GuantongZhang/Jie-and-Maggie-Webpage/main/assets/logo.png" alt="Company Logo" class="nav-logo">
+  <button class="mobile-menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-menu">
+    <li><a href="#about">ABOUT US</a></li>
+    <li><a href="#listings">FEATURED LISTINGS</a></li>
+    <li><a href="#transactions">PAST TRANSACTIONS</a></li>
+    <li><a href="#market">MARKET UPDATES</a></li>
+    <li><a href="#contact">CONTACT US</a></li>
+  </ul>
+</nav>
+
+<!-- 背景视频 + overlay -->
+<div class="video-overlay"></div>
+
+<video class="background-video" 
+       poster="https://res.cloudinary.com/luxuryp/videos/w_1920,c_scale,f_auto,q_auto/so_0,eo_0/m4nve20sid5ooten1rue/website-loop-v3.jpg"
+       loop muted autoplay playsinline webkit-playsinline>
+  <source src="https://res.cloudinary.com/luxuryp/videos/w_1920,c_scale,f_webm,vc_vp9,q_auto/m4nve20sid5ooten1rue/website-loop-v3.webm" type="video/webm;codecs=vp9">
+  <source src="https://res.cloudinary.com/luxuryp/videos/w_1920,c_scale,f_mp4,vc_h265,q_auto/m4nve20sid5ooten1rue/website-loop-v3.mp4" type="video/mp4;codecs=hvc1">
+  <source src="https://res.cloudinary.com/luxuryp/videos/w_1920,c_scale,f_mp4,vc_h264,q_auto/m4nve20sid5ooten1rue/website-loop-v3.mp4" type="video/mp4">
+</video>
+
+<!-- Hero Text -->
+<div class="text-copy">
+  <div class="agent-info">Maggie Pang | CA DRE# 02186012​</div>
+  <div class="agent-info">Jie Zheng | CA DRE# 01969518</div>
+</div>
+
+<!-- Scroll Indicator -->
+<a href="#about" class="scroll-indicator">
+  <span class="scroll-text">SCROLL</span>
+  <span class="scroll-arrow">›</span>
+</a>
+
+<!-- Main Content Sections -->
+<div class="content-sections">
+  
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-semibold mb-4">About Us</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="max-w-3xl mx-auto text-lg">Maggie Pang and Jie Zheng are dedicated real estate professionals committed to providing exceptional service and expertise in the Southern California market. With years of experience and a passion for helping clients achieve their dreams, they bring unparalleled knowledge and dedication to every transaction.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+        <div class="bg-[#f8f7f4] p-8 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Maggie Pang</h3>
+          <p class="mb-4">CA DRE# 02186012</p>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class="bg-[#f8f7f4] p-8 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Jie Zheng</h3>
+          <p class="mb-4">CA DRE# 01969518</p>
+          <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Listings Section -->
+  <section id="listings" class="py-20 bg-[#f8f7f4]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-semibold mb-4">Featured Listings</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="max-w-3xl mx-auto text-lg">Explore our carefully curated selection of premium properties in Southern California's most desirable locations.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+          <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300&fit=crop" alt="Property" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">30781 Via Conquista</h3>
+            <p class="text-gray-600 mb-3">San Juan Capistrano, CA 92675</p>
+            <p class="text-2xl font-semibold text-primary">$3,398,000</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+          <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=400&h=300&fit=crop" alt="Property" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">33841 Robles Dr</h3>
+            <p class="text-gray-600 mb-3">Dana Point, CA 92629</p>
+            <p class="text-2xl font-semibold text-primary">$2,250,000</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop" alt="Property" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">27724 Somerset Ln</h3>
+            <p class="text-gray-600 mb-3">San Juan Capistrano, CA 92675</p>
+            <p class="text-2xl font-semibold text-primary">$3,953,778</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop" alt="Property" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">110 Copeland</h3>
+            <p class="text-gray-600 mb-3">Irvine, CA 92618</p>
+            <p class="text-2xl font-semibold text-primary">$1,600,000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Transactions Section -->
+  <section id="transactions" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-semibold mb-4">Past Transactions</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="max-w-3xl mx-auto text-lg">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div class="text-center p-8 bg-[#f8f7f4] rounded-lg">
+          <h3 class="text-5xl font-bold text-primary mb-3">$450M+</h3>
+          <p class="text-lg text-gray-600">Total Sales Volume</p>
+        </div>
+        <div class="text-center p-8 bg-[#f8f7f4] rounded-lg">
+          <h3 class="text-5xl font-bold text-primary mb-3">280+</h3>
+          <p class="text-lg text-gray-600">Properties Sold</p>
+        </div>
+        <div class="text-center p-8 bg-[#f8f7f4] rounded-lg">
+          <h3 class="text-5xl font-bold text-primary mb-3">15+</h3>
+          <p class="text-lg text-gray-600">Years Experience</p>
+        </div>
+      </div>
+      
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="text-lg text-gray-600">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market Update Section -->
+  <section id="market" class="py-20 bg-[#f8f7f4]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-semibold mb-4">Market Update</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="max-w-3xl mx-auto text-lg">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div class="bg-white p-8 rounded-lg text-center">
+          <h4 class="text-sm text-gray-500 uppercase tracking-wider mb-4">Median Home Price</h4>
+          <p class="text-4xl font-bold text-secondary mb-3">$1,850,000</p>
+          <p class="text-lg text-green-600 font-semibold">+5.2% YoY</p>
+        </div>
+        <div class="bg-white p-8 rounded-lg text-center">
+          <h4 class="text-sm text-gray-500 uppercase tracking-wider mb-4">Average Days on Market</h4>
+          <p class="text-4xl font-bold text-secondary mb-3">32 days</p>
+          <p class="text-lg text-green-600 font-semibold">-8 days YoY</p>
+        </div>
+        <div class="bg-white p-8 rounded-lg text-center">
+          <h4 class="text-sm text-gray-500 uppercase tracking-wider mb-4">Homes Sold</h4>
+          <p class="text-4xl font-bold text-secondary mb-3">145</p>
+          <p class="text-lg text-green-600 font-semibold">+12% YoY</p>
+        </div>
+      </div>
+      
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="text-lg text-gray-600">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-semibold mb-4">Contact Us</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="max-w-3xl mx-auto text-lg">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="text-center p-8 bg-[#f8f7f4] rounded-lg">
+            <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <i class="ri-phone-line text-primary text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-semibold mb-6 uppercase tracking-wide">Phone</h3>
+            <p class="mb-3"><a href="tel:+19493063083" class="text-lg text-gray-700 hover:text-primary transition-colors">(949) 306-3083</a></p>
+            <p><a href="tel:+12018397150" class="text-lg text-gray-700 hover:text-primary transition-colors">(201) 839-7150</a></p>
+          </div>
+          <div class="text-center p-8 bg-[#f8f7f4] rounded-lg">
+            <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <i class="ri-mail-line text-primary text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-semibold mb-6 uppercase tracking-wide">Email</h3>
+            <p class="mb-3"><a href="mailto:fangpang@hotmail.com" class="text-lg text-gray-700 hover:text-primary transition-colors">fangpang@hotmail.com</a></p>
+            <p><a href="mailto:???@???.com" class="text-lg text-gray-700 hover:text-primary transition-colors">???@???.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
