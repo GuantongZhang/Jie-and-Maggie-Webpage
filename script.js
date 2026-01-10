@@ -43,8 +43,9 @@
 		$('.scroll-indicator').on('click', function(e) {
 			e.preventDefault();
 			var target = $(this).attr('href');
+			var navHeight = $('.top-nav').outerHeight();
 			$('html, body').animate({
-				scrollTop: $(target).offset().top
+				scrollTop: $(target).offset().top - navHeight
 			}, 800, 'swing');
 		});
 		
@@ -52,8 +53,9 @@
 		$('.top-nav a[href^="#"]').on('click', function(e) {
 			e.preventDefault();
 			var target = $(this).attr('href');
+			var navHeight = $('.top-nav').outerHeight();
 			$('html, body').animate({
-				scrollTop: $(target).offset().top
+				scrollTop: $(target).offset().top - navHeight
 			}, 800, 'swing');
 		});
 	});
