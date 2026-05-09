@@ -93,4 +93,4 @@ Example:
     git commit -m "Update listings"
     git push
 
-Cloudflare Pages will automatically detect the new commit and redeploy the site.
+Github Pages will automatically detect the new commit and redeploy the site.
