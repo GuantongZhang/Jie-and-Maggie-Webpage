@@ -200,7 +200,7 @@
 				address: 'Fullerton, CA 92831',
 				stats: '4 Beds · 3 Baths · 2,513 sqft',
 				price: '$1,398,000',
-				status: 'for sale'
+				status: 'sold'
 			},
 			{
 				image: 'assets/161.jpeg',
@@ -208,7 +208,7 @@
 				address: 'Irvine, CA 92614',
 				stats: '4 Beds · 3.5 Baths · 2,266 sqft',
 				price: '$1,288,000',
-				status: 'in escrow'
+				status: 'sold'
 			},
 			{
 				image: 'assets/121.jpeg',
@@ -216,7 +216,7 @@
 				address: 'Irvine, CA 92618',
 				stats: '4 Beds · 3 Baths · 2,387 sqft',
 				price: '$1,688,000',
-				status: 'in escrow'
+				status: 'sold'
 			},
 			{
 				image: 'assets/27724.jpeg',
