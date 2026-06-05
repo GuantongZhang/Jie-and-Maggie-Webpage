@@ -179,14 +179,6 @@
 				status: 'for sale'
 			},
 			{
-				image: 'assets/30781.jpg',
-				title: '30781 Via Conquista',
-				address: 'San Juan Capistrano, CA 92675',
-				stats: '5 Beds · 6 Baths · 4,596 sqft',
-				price: '$3,398,000',
-				status: 'for sale'
-			},
-			{
 				image: 'assets/52.jpg',
 				title: '52 Cummings',
 				address: 'Irvine, CA 92620',
