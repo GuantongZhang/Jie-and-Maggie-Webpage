@@ -155,44 +155,52 @@
 		var listingsData = [
 
 			{
+				image: 'assets/148-1.jpg',
+				title: '148 Perspective',
+				address: 'Irvine, CA 92618',
+				stats: '4 Beds · 3.5 Baths · 2,879 sqft',
+				price: '$1,825,000',
+				status: 'For Sale'
+			},
+			{
 				image: 'assets/55.jpg',
 				title: '55 Quarter Horse',
 				address: 'Irvine, CA 92602',
 				stats: '4 Beds · 3 Baths · 2,393 sqft',
-				price: '$2,360,000',
-				status: 'for sale'
+				price: '$2,175,000',
+				status: 'Sold'
 			},
 			{
 				image: 'assets/12545.webp',
 				title: '12545 N Silver Spur Ct',
 				address: 'Northridge, CA 91326',
 				stats: '4 Beds · 5 Baths · 4,107 sqft',
-				price: '$2,888,000',
-				status: 'for sale'
+				price: '$2,699,000',
+				status: 'For Sale'
 			},
 			{
 				image: 'assets/1531.jpg',
 				title: '1531 W Cara Dr',
 				address: 'Anaheim, CA 92805',
 				stats: '2 Beds · 2.5 Baths · 1,222 sqft',
-				price: '$748,000',
-				status: 'for sale'
+				price: '$720,000',
+				status: 'Sold'
 			},
 			{
 				image: 'assets/52.jpg',
 				title: '52 Cummings',
 				address: 'Irvine, CA 92620',
 				stats: '4 Beds · 4 Baths · 2,894 sqft',
-				price: '$2,750,000',
-				status: 'for sale'
+				price: '$2,530,000',
+				status: 'Sold'
 			},
 			{
 				image: 'assets/219.jpg',
 				title: '219 Ladera Vista Dr',
 				address: 'Fullerton, CA 92831',
 				stats: '4 Beds · 3 Baths · 2,513 sqft',
-				price: '$1,398,000',
-				status: 'sold'
+				price: '$1,244,270',
+				status: 'Sold'
 			},
 			{
 				image: 'assets/161.jpeg',
@@ -200,15 +208,15 @@
 				address: 'Irvine, CA 92614',
 				stats: '4 Beds · 3.5 Baths · 2,266 sqft',
 				price: '$1,288,000',
-				status: 'sold'
+				status: 'Sold'
 			},
 			{
 				image: 'assets/121.jpeg',
 				title: '121 Yugen',
 				address: 'Irvine, CA 92618',
 				stats: '4 Beds · 3 Baths · 2,387 sqft',
-				price: '$1,688,000',
-				status: 'sold'
+				price: '$1,680,000',
+				status: 'Sold'
 			},
 			{
 				image: 'assets/27724.jpeg',
@@ -216,7 +224,7 @@
 				address: 'San Juan Capistrano, CA 92675',
 				stats: '5 Beds · 5.5 Baths · 5,042 sqft',
 				price: '$3,999,999',
-				status: 'sold'
+				status: 'Sold'
 			},
 			{
 				image: 'assets/33841.jpg',
